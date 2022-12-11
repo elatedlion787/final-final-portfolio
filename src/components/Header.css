@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+header {
+    height: 10vh;
+    line-height: 10vh;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 4px 4px 10px #cbcbcb, -2px -2px 8px #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    height: 80%;
+}
+
+@media screen and (max-width: 1400px){
+    header{
+        height: 8vh;
+        line-height: 5vh;
+        background: linear-gradient(145deg, #e2e8ec, #ffffff);
+        box-shadow: 4px 4px 10px #cbcbcb, -2px -2px 8px #ffffff;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        height: 80%;
+    }
+}
+
+header .container{
+    padding-top: 15px;
+}
+
+
+header ul li{
+    margin-left: 0px;
+}
+
+header ul li a{
+    transition: 0.5s;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+}
+
+header ul li a:hover{
+    color: #ff014f
+}
+
+
+
