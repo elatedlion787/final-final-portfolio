@@ -79,7 +79,25 @@
   .portfolio .box:hover {
     color: black;
   }
-  .portfolio h1{
-    margin-left: -1.5%;
+  .portfolio .container h1{
+    margin-left: 46%;
   }
+
+  .portfolio .container h4{
+    margin-left: 45%;
+  } 
+
+
+  @media screen and (max-width: 1400px){
+    /* .portfolio .content{
+      margin-left: 5%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 2em;
+      align-items: flex-start;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+    } */
+  }
+
 

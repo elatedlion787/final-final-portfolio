@@ -9,3 +9,8 @@
     font-size: 15px;
     font-style: italic;
 } 
+
+.rate h6{
+    font-size: 14px;
+    color: red;
+}

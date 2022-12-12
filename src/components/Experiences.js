@@ -10,7 +10,7 @@ export default function Experiences(){
          class: 'CS1300: UI/UX',
          semester: 'Fall 2022',
          skills: 'UI Development, UX Researching, Figma, React, HTML',
-         desc: 'Taught by Jeff Huang, CS1300 pushes students to think about different types of user interfaces, how to model and understand user interaction, how to conduct user feedback and how to build user experiences and interfaces.',
+         desc: 'Focused on modeling user interactions, designing and prototyping interfaces and evaluating interfaces',
          link: 'https://cs.brown.edu/courses/csci1300/'
         }, 
         {
@@ -18,7 +18,7 @@ export default function Experiences(){
          class: 'CS1460: Computational Linguistics',
          semester: 'Fall 2022',
          skills: 'Pytorch, Language Modeling, Machine Translation, Deep Learning',
-         desc: 'Taught by Ellie Pavlick, CS1460 exposes students to a wide variety of NLP-based tasks (ieL Question Answering, Sentiment Analysis, Machine Translation) as well as lingustic processing and covers a variety of techniques that have been developed in the field of NLP',
+         desc: 'Explored variety of NLP tasks, ranging form machine translation to question answering to text classification. Studied language modeling and neural approaches to NLP.',
          link: 'https://csci-1460-computational-linguistics.github.io/',
         },
         {
@@ -26,7 +26,7 @@ export default function Experiences(){
           class: 'CS1951L: Blockchains and Cryptocurrency',
           semester: 'Spring 2021',
           skills: 'Go, Solidity, Concurrency, Blockchain Research',
-          desc: 'Taught by Maurice Herily, CS1951L exposes students to the fundamentals of the Ethereum and Bitcoin based blockchains. CS1951L dives deep into the world of smart contracting, blockchain security and various forms of blockchain implementation',
+          desc: 'Learnt about and worked with smart contracting, blockchain security and various forms of blockchain implementation',
           link: 'https://csci1951l-spring2022.vercel.app/',
         }, 
         {
@@ -34,7 +34,7 @@ export default function Experiences(){
             class: 'CS1951A: Data Science',
             semester: 'Spring 2021',
             skills: 'SQL, Python, Pandas, Data Mining, Statistics, Graph Creation', 
-            desc: 'Taught by Lorenzo Di Stefani, CS1951A provides an overview of data science, ranging from data cleaning to data manipulation to machine learning to data visualization. The course also introduces Hypothesis Testing as a standard for data analysis',
+            desc: 'Explored data cleaning, data manipulation, data scraping and machine learning. Developed an intuition for hypothesis testing',
             link: 'https://csci1951a-spring-2022.github.io/',
         }, 
         {
@@ -42,7 +42,7 @@ export default function Experiences(){
             class: 'CS1470: Deep Learning',
             semester: 'Fall 2021',
             skills: 'TensorFlow, Keras, Neural Nets, Discriminative Models, Generative Models',
-            desc: 'Taught by Chen Sun, CS1470 provides an overview of the field of deep learning through a variety of deep learning technologies (LSTM, Transformer, VAE, GAN, CNN) and a variety of tasks that these technologies are used for.',
+            desc: 'Explored variety of deep learning technologies (LSTM, Transformer, VAE, GAN, CNN) and a variety of tasks that these technologies are used for.',
             link: 'https://brown-deep-learning.github.io/dl-website-f22/'
         }
     ]

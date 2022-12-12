@@ -5,12 +5,18 @@
   }
 .experiences .heading h2{
     font-size: 28px;
-    margin-left: 8%;
+    margin-left: 12.5%;
     font-weight: 500;
+    padding-bottom: 2%;
 }
 
 .experiences .heading h4{
     padding-top: 50px;
+    margin-left: 45%;
+}
+
+.experiences .heading h1{
+    margin-left: 38%;
 }
   .experiences .content {
     max-width: 75%;
@@ -85,6 +91,14 @@
     background: white;
   } */
 
+  /* .experiences h1{
+    margin-left: 38%;
+  }
+
+  .experiences h4{
+    margin-left: 45%;
+  }
 
 
-  
+
+   */

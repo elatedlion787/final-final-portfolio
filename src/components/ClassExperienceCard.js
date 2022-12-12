@@ -11,7 +11,8 @@ export default function ClassExperienceCard(props){
             <span>{props.skills}</span>
           </div>
           <div className='rate'>
-            <button className='btn_shadow ' type='button' >  {props.semester} </button>
+            {/* <button className='btn_shadow ' type='button' >  {props.semester} </button> */}
+            <h6>{props.semester}</h6>
           </div>
         </div>
         <hr />

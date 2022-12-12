@@ -36,7 +36,7 @@ body.active-modal {
 
   .modal-content img{
     height: 400px;
-    width: 800px;
+    width: 600px;
     margin-top: 20%;
     padding-bottom: 20px;
     overflow-y:scroll;
@@ -44,13 +44,27 @@ body.active-modal {
 
   @media screen and (max-width: 1400px){
     .modal-content img{
-      height: 400px;
-      width: 500px;
+      height: 300px;
+      width: 400px;
       margin-top: 20%;
       padding-bottom: 20px;
       overflow-y:scroll;
     }
     
+    .modal,
+    .overlay {
+      width: 100vw;
+      height: 100vh;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      position: fixed;
+      display: flex;
+      overflow-y: auto;
+      overflow-x: auto;
+      z-index: 1000;
+    }
   }
 
 
@@ -88,6 +102,13 @@ body.active-modal {
       padding: 0px 30px 0px 80px;
     }
 
+    .portfolio-card h2{
+      font-size: 15px;
+    }
+
+
+ 
+
   }
 
 
@@ -110,11 +131,11 @@ body.active-modal {
     color: #ff014f;
     display: flex;
     align-items: center;
-    padding-left: 100px;
+    padding-left: 33.3%;
     width: 100%;
   }
 
-  .modal-text button.view-project:hover{
+  .modal-text button.view-project :hover{
     background: linear-gradient(145deg, #2684cb, #9f0707);
     color: white;
   }
