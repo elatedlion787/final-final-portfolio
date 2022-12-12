@@ -22,7 +22,7 @@ export default function About(){
           </div>
           <div className='right'>
             <div className='right_img'>
-              <img src='images/images-2.jpg' alt='' />
+              <img src= {process.env.PUBLIC_URL + '/images/images-2.jpg'}alt='' />
             </div>
             <div>
             <button className="button" type="submit"> View GitHub </button>

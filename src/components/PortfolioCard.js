@@ -15,7 +15,7 @@ export default function PortfolioCard(props){
         <div className="portfolio-card">
         <div className='box btn_shadow '>
             <div className='img'>
-            <img src={props.head_image} onClick={toggleModal}  alt=''/>
+            <img src={process.env.PUBLIC_URL + props.head_image} onClick={toggleModal}  alt=''/>
             </div>
             <div className='category flex'>
             <span onClick={toggleModal} >  {props.category}</span>
@@ -39,7 +39,7 @@ export default function PortfolioCard(props){
                     
                     return(
                         <div id="image">
-                        <img src={val} alt='' />
+                        <img src={process.env.PUBLIC_URL + val} alt='' />
                         <h4> {props.caption[index]} </h4>
                         </div>
                     )

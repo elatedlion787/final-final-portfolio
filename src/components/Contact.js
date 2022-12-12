@@ -14,7 +14,7 @@ export default function Contact(){
                 <div className='left'>
                   <div className='box box_shodow'>
                     <div className='img'>
-                      <img src="/images/download-17.jpg" alt='' />
+                      <img src= {process.env.PUBLIC_URL + "/images/download-17.jpg"} alt='' />
                     </div>
                     <div className='details'>
                       <h1>Elated Lion</h1>
