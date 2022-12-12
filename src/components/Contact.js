@@ -2,35 +2,6 @@ import React, { useState } from "react"
 import "./Contact.css"
 
 export default function Contact(){
-    const [data, setData] = useState({
-        fullname: "",
-        phone: "",
-        email: "",
-        subject: "",
-        message: "",})
-    
-      const InputEvent = (event) => {
-        const { name, value } = event.target
-    
-        setData((preVal) => {
-          return {
-            ...preVal,
-            [name]: value,
-          }
-        })
-      }
-    
-      const formSubmit = (event) => {
-        event.preventDefault()
-        alert(
-          `My name is ${data.fullname}. 
-        My phone number is ${data.phone}. 
-        My email address is ${data.email}. 
-        My Subject on  ${data.subject}. 
-        Here is my message I want to say : ${data.message}. 
-        `
-        )
-      }
       return (
         <>
           <section className='contact' id='contact'>
