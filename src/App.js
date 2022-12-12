@@ -6,6 +6,10 @@ import Experiences from "./components/Experiences"
 import Portfolio from "./components/Portfolio"
 import Contact from "./components/Contact"
 
+
+
+
+
 function App() {
 
   return (

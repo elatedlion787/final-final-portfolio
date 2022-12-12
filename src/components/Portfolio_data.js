@@ -92,7 +92,7 @@ const Portfolio_data = [
       goals: ["Understand and implement A Transformer Encoder and Decoder block", "Understand and implment BLEU", "Practice Neural Techniques with PyTorch"],
       skills: "PyTorch, Neural Networks, Machine Translation, Python, Deep Learning",
       challenges: "The biggest challenge of this assignment was the need to reshape data in order to fit my neural network layers and understanding the shape of the data.",
-      results: ["Overall, I believe I was successful in creating a seq2seq language model and a BLEU metric."],
+      results: ["Overall, I believe I was successful in creating a seq2seq language model and a BLEU metric. My accuracy came close to 80% and I performed well on my task. I "],
       caption: ["Figure 1: A figure displaying the Encoder block. ", "Figure 2: A figure displaying the decoder layer", "Figure 3: A figure of the entire Transformer"],
       link: 'https://colab.research.google.com/drive/1foqySO99wzoPNpKXS7VMTlU6aI_r0OIJ#scrollTo=x832-O58mnWb',
     },

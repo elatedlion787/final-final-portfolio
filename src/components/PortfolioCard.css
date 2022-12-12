@@ -137,6 +137,7 @@ body.active-modal {
 
   .modal-text button.view-project :hover{
     background: linear-gradient(145deg, #2684cb, #9f0707);
+    box-shadow: 2px linear-gradient(145deg, #2684cb, #9f0707);
     color: white;
   }
 

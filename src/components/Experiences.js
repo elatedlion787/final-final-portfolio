@@ -42,7 +42,7 @@ export default function Experiences(){
             class: 'CS1470: Deep Learning',
             semester: 'Fall 2021',
             skills: 'TensorFlow, Keras, Neural Nets, Discriminative Models, Generative Models',
-            desc: 'Explored variety of deep learning technologies (LSTM, Transformer, VAE, GAN, CNN) and a variety of tasks that these technologies are used for.',
+            desc: 'Explored varietydeep learning technologies (LSTM, Transformer, VAE, GAN, CNN) and a variety of tasks that these technologies are used for.',
             link: 'https://brown-deep-learning.github.io/dl-website-f22/'
         }
     ]
