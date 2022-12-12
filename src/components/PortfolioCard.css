@@ -1,4 +1,6 @@
-
+.portfolio-card{
+  width: 95%;
+}
 .portfolio-card h2{
     font-size: 15px;
 }
@@ -17,7 +19,7 @@ body.active-modal {
   .modal,
   .overlay {
     width: 100vw;
-    height: 100vh;
+    height: 150vh;
     top: 0;
     left: 0;
     right: 0;
@@ -43,11 +45,15 @@ body.active-modal {
   }
 
   @media screen and (max-width: 1400px){
+    .portfolio-card .category{
+      font-size: 20px;
+    }
+    
     .modal-content img{
       height: 300px;
       width: 400px;
       margin-top: 20%;
-      padding-bottom: 20px;
+      padding-bottom: 10px;
       overflow-y:scroll;
     }
     

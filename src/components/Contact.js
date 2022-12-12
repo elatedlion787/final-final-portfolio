@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import "./Contact.css"
 
 export default function Contact(){
@@ -19,7 +19,7 @@ export default function Contact(){
                     <div className='details'>
                       <h1>Elated Lion</h1>
                       <p>Student @ Brown University</p>
-                      <p>I am available for freelance work. Connect with me via and call in to my account.</p> <br />
+                      <p>I am open to work, research opportunities </p> <br />
                       <p>Phone: 829-282-1281 </p>
                       <p>Email: elatedlion787@brown.edu</p> <br />
                       <span>SOCIALS</span>

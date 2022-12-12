@@ -53,12 +53,6 @@
     position: relative;
   }
 
-  /* .experiences .box:hover .btn_shadow {
-    background: #ff3a75;
-    box-shadow: none;
-    color: white;
-  } */
-
   .experiences .box h6{
     color: black;
     box-shadow: none;
@@ -83,22 +77,5 @@
 
   .experiences .box:hover{
     background: #fd83a8dc;
-    /* color: white; */
     box-shadow: none;
   }
-/* 
-  .experiences .rate .btn_shadow:hover{
-    background: white;
-  } */
-
-  /* .experiences h1{
-    margin-left: 38%;
-  }
-
-  .experiences h4{
-    margin-left: 45%;
-  }
-
-
-
-   */
