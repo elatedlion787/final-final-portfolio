@@ -28,14 +28,29 @@
     overflow: hidden;
     transition: 0.5s;
   }
-  .portfolio img {
-    width: 90%;
+
+  @media screen and (min-width: 1300px){
+    .portfolio img{
+    width: 400px;
     height: 80%;
     /* height: 100%; */
     border-radius: 10px;
     justify-content: center;
     align-items: center;
     transition: 0.5s;
+    }
+  }
+
+  @media screen and (max-width: 1300px){
+  .portfolio img { 
+    width: 90%;
+    height: 70%;
+    /* height: 100%; */
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+  }
   }
   .portfolio .content{
     margin-left: 5%;
