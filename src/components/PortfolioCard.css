@@ -145,6 +145,10 @@ body.active-modal {
     color: white;
   }
 
+  .modal-text .container-2{
+    height: 80px;
+  }
+
   .modal-text button.close-modal {
     color: red;
     position: fixed;

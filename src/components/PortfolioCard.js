@@ -105,6 +105,8 @@ export default function PortfolioCard(props){
 
                 
               </div>
+              <div className='container-2'>
+                </div>
               <button className='close-modal btn_shadow' onClick={toggleModal}>
                 <i class='fas fa-times'></i>
               </button>

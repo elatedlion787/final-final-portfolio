@@ -6,17 +6,17 @@ export default function Contact(){
         <>
           <section className='contact' id='contact'>
             <div className='container top'>
-              <div className='heading text-center'>
-                <h4>CONTACT</h4>
-              </div>
     
               <div className='content d_flex'>
                 <div className='left'>
                   <div className='box box_shodow'>
-                    <div className='img'>
-                      <img src= {process.env.PUBLIC_URL + "/images/download-17.jpg"} alt='' />
-                    </div>
+                    
                     <div className='details'>
+                    <div className='heading text-center'>
+                      <h4>CONTACT</h4>
+                    </div>
+                      <img src= {process.env.PUBLIC_URL + "/images/download-17.jpg"} alt='' />
+                    
                       <h1>Elated Lion</h1>
                       <p>Student @ Brown University</p>
                       <p>I am open to work, research opportunities </p> <br />
