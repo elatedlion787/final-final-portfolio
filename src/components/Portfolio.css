@@ -102,14 +102,9 @@
   .portfolio .box:hover {
     color: black;
   }
-  /* .portfolio .container h1{
-    margin-left: 46%;
+  .portfolio .container h1{
+    margin-left: -2%;
   }
-
-  .portfolio .container h4{
-    margin-left: 45%;
-  }  */
-
 
   @media screen and (max-width: 1400px){
      .portfolio .content{
