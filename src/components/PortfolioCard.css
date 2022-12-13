@@ -135,7 +135,10 @@ body.active-modal {
     color: #ff014f;
     display: flex;
     align-items: center;
-    padding-left: 33.3%;
+    text-align: center;
+    justify-self: center;
+    justify-content: center;
+    /* padding-left: 33.3%; */
     width: 100%;
   }
 
